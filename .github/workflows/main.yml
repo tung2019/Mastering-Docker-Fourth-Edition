@@ -1,9 +1,9 @@
- name: "Create Multi Stage Docker Image CI"
+ name: Create Multi Stage Docker Image CI
  on: [push]
  jobs:
  build_docker_image:
- name: Create Multi Stage Docker Image CI
  runs-on: ubuntu-18.04
+ My_first_job:
  steps:
  - uses: actions/checkout@v1
  
