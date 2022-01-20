@@ -1,7 +1,6 @@
  name: Create Multi Stage Docker Image CI
  on: [push]
  jobs:
-  first_job:
   build_docker_image:
    runs-on: ubuntu-18.04
    steps:
