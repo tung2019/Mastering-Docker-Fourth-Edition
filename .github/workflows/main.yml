@@ -1,5 +1,5 @@
-name: Create Multi Stage Docker Image CI
-on: [push]
+ name: Create Multi Stage Docker Image CI
+ on: [push]
  jobs:
  build_docker_image:
  
